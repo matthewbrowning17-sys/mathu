@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+    <style>
+        /* Optional: Style the button to fit the screen */
+        .full-size-button {
+            width: 100%;
+            height: 100vh; /* 100% of the viewport height */
+            font-size: 24px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- This is your main button. The 'onclick' calls a JavaScript function we define next. -->
+    <button
+        onclick="loadExternalContent()"
+        class="full-size-button"
+    >
+        Click to view content
+    </button>
+
+    <!-- Link the external JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
